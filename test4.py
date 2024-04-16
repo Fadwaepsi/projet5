@@ -10,4 +10,4 @@ content = response.content
 soup = BeautifulSoup(content,'html')
 
 prix = soup.findAll('span',class_="value")
-print(prix)
+print(prix) 
